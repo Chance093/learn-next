@@ -11,7 +11,7 @@ export default function Navbar() {
         <ul className=' flex gap-8 justify-center'>
           <li>
             <Link
-              href='/dashboard#target'
+              href='/dashboard'
               className={`${
                 pathname === '/dashboard' ? 'text-purple-400' : ''
               }`}
